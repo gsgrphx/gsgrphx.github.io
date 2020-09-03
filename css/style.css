@@ -470,7 +470,7 @@ body {
       text-indent: 25px;
       padding: 7px 10px; }
     .about__body p:last-child {
-      padding: 7px 10px 0; } }
+      padding: 7px 10px 0 10px; } }
 
 .phylosophy {
   background-color: #fff;
