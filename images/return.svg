@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18.5">
+	<defs>
+		<style>
+			.cls-1 {
+				fill:none;
+				stroke: #fee10f;
+				stroke-linecap: round;
+				stroke-linejoin: round;
+				stroke-width: 2px;
+			}
+		</style>
+	</defs>
+	<title>Return</title>
+	<g id="Слой_2" data-name="Слой 2">
+		<g id="Слой_1-2" data-name="Слой 1">
+			<polyline class="cls-1" points="1 9 9 1 17 9"/>
+			<polyline class="cls-1" points="3.5 11 3.5 17.5 14.5 17.5 14.5 11"/>
+		</g>
+	</g>
+</svg>
