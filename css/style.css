@@ -340,21 +340,45 @@ body {
       letter-spacing: 1.5px;
       line-height: 35px; } }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .front {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 36, 37, 0.7)), to(rgba(33, 36, 37, 0.7))), url("../images/front_1_cut_rough.png") bottom right/400px no-repeat, -webkit-gradient(linear, left top, left bottom, from(#212425), to(#212425));
     background: -webkit-linear-gradient(rgba(33, 36, 37, 0.7), rgba(33, 36, 37, 0.7)), url("../images/front_1_cut_rough.png") bottom right/400px no-repeat, -webkit-linear-gradient(#212425, #212425);
     background: -o-linear-gradient(rgba(33, 36, 37, 0.7), rgba(33, 36, 37, 0.7)), url("../images/front_1_cut_rough.png") bottom right/400px no-repeat, -o-linear-gradient(#212425, #212425);
     background: linear-gradient(rgba(33, 36, 37, 0.7), rgba(33, 36, 37, 0.7)), url("../images/front_1_cut_rough.png") bottom right/400px no-repeat, linear-gradient(#212425, #212425);
-    height: 100%; }
-    .front__body {
-      display: none; } }
+    height: 100%;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .front__box {
+      height: 500px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 0 0 100px 35px; }
+    .front__logo {
+      margin-left: 75px; } }
 
-@media (max-width: 414px) {
+@media (max-width: 425px) {
   .front {
     background-size: 355px; }
+    .front__body {
+      display: none; }
     .front__box {
-      width: auto; } }
+      width: auto;
+      -webkit-box-pack: start;
+      -ms-flex-pack: start;
+      justify-content: flex-start; } }
 
 @media (max-width: 375px) {
   .front {
