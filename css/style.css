@@ -45,7 +45,8 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400; }
 
 body {
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth; }
 
 .header {
   position: absolute;
@@ -2468,8 +2469,7 @@ a {
     margin-bottom: 25px;
     text-align: center; }
   .crew__details {
-    margin-bottom: 30px;
-    overflow-y: auto; }
+    margin-bottom: 30px; }
     .crew__details a {
       color: white;
       font-size: 18px;
