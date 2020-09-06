@@ -1251,7 +1251,7 @@ a {
     line-height: 20px;
     padding: 0 15px 15px 20px; } }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .start__container, .restart__container {
     width: 100%;
     padding: 0px 0; }
