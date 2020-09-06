@@ -1280,12 +1280,13 @@ a {
 @media (max-width: 768px) {
   .start__container, .restart__container {
     width: 100%;
-    padding: 0px 0; }
+    padding: 20px 0 0; }
+  .start .restart__container, .restart .restart__container {
+    padding: 15px 0 35px; }
   .start__body, .restart__body {
-    margin: 0 auto; }
+    margin: 25px auto 0 auto; }
   .start__title, .restart__title {
-    font-size: 35px;
-    margin: 25px auto; }
+    font-size: 35px; }
   .start__column, .restart__column {
     width: 33.333%;
     padding: 20px 0 15px 5px;
