@@ -136,7 +136,7 @@ body {
   __burger {
     display: block; } }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .header {
     overflow-y: auto;
     height: 100%; }
@@ -341,7 +341,7 @@ body {
       letter-spacing: 1.5px;
       line-height: 35px; } }
 
-@media (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 768px) {
   .front {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(33, 36, 37, 0.7)), to(rgba(33, 36, 37, 0.7))), url("../images/front_1_cut_rough.png") bottom right/400px no-repeat, -webkit-gradient(linear, left top, left bottom, from(#212425), to(#212425));
     background: -webkit-linear-gradient(rgba(33, 36, 37, 0.7), rgba(33, 36, 37, 0.7)), url("../images/front_1_cut_rough.png") bottom right/400px no-repeat, -webkit-linear-gradient(#212425, #212425);
@@ -354,8 +354,6 @@ body {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
-    .front__body {
-      display: none; }
     .front__box {
       height: 500px;
       display: -webkit-box;
@@ -368,7 +366,8 @@ body {
       -webkit-box-pack: justify;
       -ms-flex-pack: justify;
       justify-content: space-between;
-      margin: 0 0 100px 35px; }
+      margin: 0 0 100px 35px;
+      display: none; }
     .front__logo {
       margin-left: 75px; } }
 
