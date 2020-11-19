@@ -848,7 +848,7 @@ body {
     width: auto;
     height: auto; }
   .phylosophy__row-one {
-    width: auto;
+    width: 100vw;
     height: 90px;
     margin: 0 0 3% 0;
     padding: 0 30px;
@@ -2207,7 +2207,7 @@ a {
   .garanty {
     height: auto; }
     .garanty__body {
-      width: 320px;
+      width: 100vw;
       height: auto;
       display: -webkit-box;
       display: -ms-flexbox;
