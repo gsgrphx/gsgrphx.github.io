@@ -8,16 +8,19 @@
 
 	<meta charset="UTF-8">
 
-	<!-- CSS подключение -->
-	<link rel="stylesheet" href="css/style.css">
-	<!-- /CSS подключение -->
+	<!-- CSS / подключение -->
 
+<!-- 	<link rel="stylesheet" href="css/style.css"> -->
 
 
 	<!-- Адаптив -->
 	<meta name="viewport" content="width=device-width, maximum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<!-- JS -->
+<!-- 	<script src="js/jquery-3.5.1.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/return.js"></script> -->
+	<!-- <script src="js/burger.js"></script> -->
 
 	<!-- Yandex.Metrika counter -->
 	<script type="text/javascript" >
@@ -26,61 +29,55 @@
 	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
 	   ym(68864533, "init", {
-		clickmap:true,
-		trackLinks:true,
-		accurateTrackBounce:true,
-		webvisor:true
+	        clickmap:true,
+	        trackLinks:true,
+	        accurateTrackBounce:true,
+	        webvisor:true
 	   });
 	</script>
 	<noscript><div><img src="https://mc.yandex.ru/watch/68864533" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 	<!-- /Yandex.Metrika counter -->
 
-	<link rel="icon" type="image/png" href="images/favicon.svg"> 
+	<link rel="icon" type="image/png" href="images/favicon.svg">
 </head>
 
 <body>
 <div class="inTop"></div>
-	<div class="header">
-	<div class="header__body">
 
-		<div class="header__first-line">
 
-			<div class="header__burger">
+	<div class="front">
+	<div class="front__body">
+		<div class="front__header">
+			<div class="front__first-line">
+				<div class="front__burger">
+					<span></span>
+				</div>
+				<div class="front__socials">
+					<div class="front__fb"></div>
+					<div class="front__instagram"></div>
+				</div>
 			</div>
 
-			<div class="header__socials">
-
-				<a class="header__fb" href="https://www.facebook.com/Open-Bar-113463440408820" target="_blank"></a>
-					<!-- <img src="images/fb-white.svg" width="25px" alt=""></a> -->
-				<a class="header__instagram" href="https://www.instagram.com/openbarpro_ru/?igshid=cr2qaewzp00h" target="_blank"></a>
-					<!-- <img src="images/instagram-white.svg" width="25px" alt=""></a> -->
-
-			</div>
-		</div>
-
-		<div class="header__second-line">
-
-			<div class="header__topmenu">
-				<div class="header__logo"></div>
-				<a href=".about">О компании</a>
-				<a href=".collab">Услуги</a>
-				<a href=".resume">Проекты</a>
-				<a href=".cocktails">Коктейли</a>
-				<a href=".contacts">Контакты</a>
+			<div class="front__second-line">
+				<nav class="front__topmenu">
+					<a href=".about">О компании</a>
+					<a href=".collab">Услуги</a>
+					<a href=".resume">Проекты</a>
+					<a href=".cocktails">Коктейли</a>
+					<a href=".contacts">Контакты</a>
+				</nav>
 			</div>
 			
 		</div>
-
-	</div>
-</div>
-	<div class="front" id="home">
-	<div class="front__body">
-		<div class="front__box">
+		<div class="front__center">
 			<div class="front__logo"></div>
-			<div class="front__hi"><p>Управление баром в вашем заведении!</p></div>
+			<div class="front__hi">
+				<p>Управление баром в вашем заведении!</p>
+			</div>
 		</div>
 	</div>
-</div>	<div class="about" id="about">
+</div>
+	<div class="about">
 	<div class="about__body">
 		<div class="about__text">
 			<p><span>Open Bar</span> – это команда профессионалов с большим опытом управления в сфере ресторанного бизнеса. Мы закрываем «под ключ» все вопросы связанные с запуском баров в новых проектах, а так же улучшением качества работы бара и финансовых показателей уже действующих заведений.
@@ -123,7 +120,8 @@
 			</div>
 		</div>
 	</div>
-</div>	<div class="collab" id="collab">
+</div>	<div class="collab">
+
 	<div class="collab__body">
 		<div class="collab__title">Форматы <br class="hide">сотрудничества<br/>с нашей компанией</div>
 		<div class="collab__row">
@@ -253,7 +251,7 @@
 				</div>
 			</div>
 		</div>
-	</div>	<div class="resume" id="resume">
+	</div>	<div class="resume">
 	<div class="resume__body">
 		<div class="resume__header"><p>Проекты, в которых мы принимали участие</p></div>
 
@@ -263,10 +261,10 @@
 			<div class="resume__item"><a href="https://birds.city" target="_blank"><img src="images/bar-logos/birds.jpg" alt=""></a></div>
 			<div class="resume__item"><a href="http://insight.354group.com/" target="_blank"><img src="images/bar-logos/insight.jpg" alt=""></a></div>
 			<div class="resume__item"><a href="https://www.restoclub.ru/msk/place/na-svezhem-vozduhe" target="_blank"><img src="images/bar-logos/nasvvozduhe.jpg" alt=""></a></div>
-	<!-- 		<div class="resume__item"><a href="https://grammy-s.ru" target="_blank"><img src="images/bar-logos/Grammy.jpg" alt=""></a></div> -->
+			<!-- <div class="resume__item"><a href="https://grammy-s.ru" target="_blank"><img src="images/bar-logos/Grammy.jpg" alt=""></a></div> -->
 			<div class="resume__item"><a href="https://www.instagram.com/ex.moscow" target="_blank"><img src="images/bar-logos/ex.jpg" alt=""></a></div>
 			<div class="resume__item"><a href="https://steakiteasy.ru" target="_blank"><img src="images/bar-logos/steakiteasy.jpg" alt=""></a></div>
-	<!-- 		<div class="resume__item"><a href="https://www.restoclub.ru/msk/place/zhizn-pi" target="_blank"><img src="images/bar-logos/pi.jpg" alt=""></a></div> -->
+			<!-- <div class="resume__item"><a href="https://www.restoclub.ru/msk/place/zhizn-pi" target="_blank"><img src="images/bar-logos/pi.jpg" alt=""></a></div> -->
 			<div class="resume__item"><a href="http://true-cost.ru" target="_blank"><img src="images/bar-logos/никуда.jpg" alt=""></a></div>
 			<div class="resume__item"><a href="https://www.timeout.ru/msk/place/35586" target="_blank"><img src="images/bar-logos/timeout.jpg" alt=""></a></div>
 			<div class="resume__item"><a href="https://sempre.moscow" target="_blank"><img src="images/bar-logos/sempre.jpg" alt=""></a></div>
@@ -275,9 +273,9 @@
 			<div class="resume__item"><a href="https://depomoscow.ru" target="_blank"><img src="images/bar-logos/депо.jpg" alt=""></a></div>
 			<div class="resume__item"><a href="https://piknikrest.ru" target="_blank"><img src="images/bar-logos/пикник.png" alt=""></a></div>
 			<div class="resume__item"><a href="https://www.facebook.com/leorestmoscow" target="_blank"><img src="images/bar-logos/leo.PNG" alt=""></a></div>
-			<div class="resume__item"><a href="#" target="_blank"><img src="images/bar-logos/projector.jpg" alt=""></a></div>
+			<div class="resume__item"><a href="http://true-cost.ru" target="_blank"><img src="images/bar-logos/projector.jpg" alt=""></a></div>
 			<div class="resume__item"><a href="https://www.facebook.com/BNDbabesneverdie" target="_blank"><img src="images/bar-logos/babes.jpg" alt=""></a></div>
-	<!-- 		<div class="resume__item"><a href="https://vodohod.com/" target="_blank"><img src="images/bar-logos/Vodohod.png" alt=""></a></div> -->
+			<!-- <div class="resume__item"><a href="https://vodohod.com/" target="_blank"><img src="images/bar-logos/Vodohod.png" alt=""></a></div> -->
 		</div>
 	</div>
 </div>	<div class="advantage">
@@ -927,9 +925,11 @@
 								<p>
 									Открывал в качестве Шеф-Бармена множество заведений с нашумевшими барными картами, такие как «Time Out Bar», рестобар «Proжектор», гастробар «Никуда не Едем». Так же с открытия 3,5 года являлся Шеф-Барменом ресторанного холдинга 354 Exclusive Height в состав которого входят 3 заведения в башне  ОКО на 84 – 86 этажах, ресторан-клуб «Birds» с азиатско-авторской кухней и коктейлями, ресторан «Ruski» c современной русской гастрономией и коктейлями, «На Свежем Воздухе» с Европейским уклоном и аперитивными коктейлями, а так же несколько проектов в фудмолле «ДЕПО». Сейчас полностью погружен в развитие баров с командой Open Bar.
 								</p>
-								<blockquote><p>
+								<blockquote>
+									<p>
 									"Не перестаю обучаться сам и обучать команды барменов, с которыми работаю. Постоянно ищу новые направления в приготовлении напитков, на мировых барных выставках, перенимая опыт у иностранных коллег бартендеров, которых я часто приглашаю в свои бары на гостевые коктейльные вечера. Одна из сильнейших компетенций – это разработка Коктейльной и полной барной карты любой сложности на острие барных трендов, синергичной концепции заведения."
-								</p></blockquote>
+									</p>
+								</blockquote>
 							</div>
 						</div>
 					</div>
@@ -939,7 +939,7 @@
 		</div>
 
 	</div>
-</div>	<div class="contacts" id="contacts">
+</div>	<div class="contacts">
 	<div class="contacts__body">
 		<div class="contacts__title">Контакты</div>
 		<div class="contacts__qlist">
@@ -986,11 +986,13 @@
 	</div>
 </footer>
 
+<link rel="stylesheet" href="css/style.css">
 <!-- JS -->
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="js/script.js"></script>
 <script src="js/return.js"></script>
 <!-- /JS -->
+
 </body>
 
 </html>
